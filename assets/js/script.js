@@ -142,7 +142,7 @@ desmos.addEventListener("click", function () {
 });
 
 const websites = document.getElementById("websites");
-desmos.addEventListener("click", function () {
+websites.addEventListener("click", function () {
   for (let i = 0; i < pages.length; i++) {
     if ("websites" === pages[i].dataset.page) {
       pages[i].classList.add("active");
