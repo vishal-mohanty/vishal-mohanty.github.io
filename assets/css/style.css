@@ -532,6 +532,7 @@ main {
 }
 .service-item:hover{
   cursor: pointer;
+  background: yellow;
 }
 .service-item::before {
   content: "";
