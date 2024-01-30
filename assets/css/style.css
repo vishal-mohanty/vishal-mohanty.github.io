@@ -530,7 +530,9 @@ main {
   box-shadow: var(--shadow-2);
   z-index: 1;
 }
-
+.service-item:hover{
+  cursor: pointer;
+}
 .service-item::before {
   content: "";
   position: absolute;
@@ -1871,9 +1873,6 @@ textarea.form-input::-webkit-resizer { display: none; }
 
   .social-list { justify-content: center; }
 
-  .contact-item:hover{
-    cursor: pointer;
-  }
 
   /**
 	 * RESUME
