@@ -140,4 +140,16 @@ desmos.addEventListener("click", function () {
     }
   }
 });
+
+const websites = document.getElementById("websites");
+desmos.addEventListener("click", function () {
+  for (let i = 0; i < pages.length; i++) {
+    if ("websites" === pages[i].dataset.page) {
+      pages[i].classList.add("active");
+      window.scrollTo(0, 0);
+    } else {
+      pages[i].classList.remove("active");
+    }
+  }
+});
 }
